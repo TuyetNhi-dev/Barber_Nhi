@@ -1,6 +1,6 @@
 import { Outlet, useLocation, useNavigate } from "react-router";
 import { Home, Calendar, DollarSign, Users, LogOut } from "lucide-react";
-import barberAvatar from "figma:asset/58973b670b5e0aa07f486b60e85be4044f7127d2.png";
+import barberAvatar from "../../assets/58973b670b5e0aa07f486b60e85be4044f7127d2.png";
 
 export function Layout() {
   const location = useLocation();

@@ -1,7 +1,7 @@
 import { Mail, Phone, MapPin, Star, Award, Calendar, Edit2, Scissors, LogOut } from "lucide-react";
 import { useState } from "react";
 import { useNavigate } from "react-router";
-import barberAvatar from "figma:asset/58973b670b5e0aa07f486b60e85be4044f7127d2.png";
+import barberAvatar from "../../assets/58973b670b5e0aa07f486b60e85be4044f7127d2.png";
 
 const stats = [
   { label: "Tổng khách hàng", value: "1,245", icon: Award },
